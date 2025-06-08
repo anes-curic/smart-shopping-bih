@@ -35,7 +35,8 @@ Razvojna okruženja i alati:
 Visual Studio Code: Glavni editor korišten za pisanje koda
 Google Chrome (Developer Tools) : Testiranje  izgleda i funkcionalnosti aplikacije u različitim rezolucijama
 Node Package Manager(npm): za instalaciju svih potrebnih biblioteka i paketa potrebnih za pokretanje aplikacije 
- 
+
+ 
 3.	Opis strukture projekta (mapa/fajlova)
 Projekat Smart Shopping BiH razvijan je korištenjem React biblioteke, a organizovan je na način koji omogućava lakšu održivost, preglednost i proširivost. U nastavku se nalazi kratak pregled strukture direktorijuma i najvažnijih fajlova:
 smart-shopping-bih/
@@ -83,6 +84,7 @@ Fontovi:
 
 Naslovi: Poppins
 Tekst: Roboto
+
 
 
 5.	Uloge korisnika aplikacije
@@ -138,6 +140,7 @@ Za pokretanje aplikacije Smart Shopping BiH potrebno je slijediti sljedeće kora
        4.	Pokretanje React aplikacije
           U drugom terminalu (dok je JSON Server pokrenut) pokrenite React aplikaciju
           npm start
+
 
 
 8.	Snimci ekrana radne aplikacije
