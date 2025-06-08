@@ -14,7 +14,7 @@ Projekat je nastao u okviru Univerziteta u Zenici i iza njega stoji tim studenat
 
  
 2.	Tehnologije korištene u radu
-3.	
+   
 Tokom izrade projektnog zadatka korišten je veći broj neophodnih tehnologija koje omogućavaju brz, responzivan i pregledan rad aplikacije. Glavni fokus bio je na jednostavnosti implementacije.
 
 Korištene tehnologije za izradu :
