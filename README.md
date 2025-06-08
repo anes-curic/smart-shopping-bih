@@ -38,6 +38,7 @@ Node Package Manager(npm): za instalaciju svih potrebnih biblioteka i paketa pot
 
  
 3.	Opis strukture projekta (mapa/fajlova)
+   
 Projekat Smart Shopping BiH razvijan je korištenjem React biblioteke, a organizovan je na način koji omogućava lakšu održivost, preglednost i proširivost. U nastavku se nalazi kratak pregled strukture direktorijuma i najvažnijih fajlova:
 smart-shopping-bih/
 |
@@ -61,7 +62,7 @@ package.json, README.md
 
 
 
-4.	Funkcionalnosti i opis dizajna
+5.	Funkcionalnosti i opis dizajna
 
 Aplikacija Smart Shopping BiH razvijena je sa ciljem da korisnicima pruži jednostavan način za pregled i usporedbu cijena proizvoda iz različitih kategorija i trgovina.
 Glavne funkcionalnosti aplikacije uključuju
