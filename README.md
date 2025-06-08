@@ -11,11 +11,11 @@ Smart Shopping BiH je web aplikacija čiji je cilj olakšati građanima poređen
 Aplikacija je trenutno aktivna za područje Zenice, ali se planira proširenje na druge gradove u Bosni i Hercegovini.
 Cilj projekta je unaprijediti proces kupovine kroz jednostavno, transparentno i efikasno rješenje koje štedi vrijeme i novac, kako krajnjim korisnicima tako i samim trgovinama.
 Projekat je nastao u okviru Univerziteta u Zenici i iza njega stoji tim studenata softverskog inženjerstva, koji žele kroz praktičan rad doprinositi zajednici i razvijati korisna digitalna rješenja.
- 
+
+ 
 2.	Tehnologije korištene u radu
-
+3.	
 Tokom izrade projektnog zadatka korišten je veći broj neophodnih tehnologija koje omogućavaju brz, responzivan i pregledan rad aplikacije. Glavni fokus bio je na jednostavnosti implementacije.
-
 
 Korištene tehnologije za izradu :
 
