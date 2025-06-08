@@ -3,7 +3,7 @@ SMART SHOPPING BIH
 Članovi tima:
 Anes Ćurić,
 Faris Šolbić,
-Hasan Mešinović,
+Hasan Mešinović
 
 1.	Opis teme
 
@@ -11,6 +11,7 @@ Smart Shopping BiH je web aplikacija čiji je cilj olakšati građanima poređen
 Aplikacija je trenutno aktivna za područje Zenice, ali se planira proširenje na druge gradove u Bosni i Hercegovini.
 Cilj projekta je unaprijediti proces kupovine kroz jednostavno, transparentno i efikasno rješenje koje štedi vrijeme i novac, kako krajnjim korisnicima tako i samim trgovinama.
 Projekat je nastao u okviru Univerziteta u Zenici i iza njega stoji tim studenata softverskog inženjerstva, koji žele kroz praktičan rad doprinositi zajednici i razvijati korisna digitalna rješenja.
+
 
  
 2.	Tehnologije korištene u radu
@@ -44,6 +45,7 @@ Visual Studio Code: Glavni editor korišten za pisanje koda
 Google Chrome (Developer Tools) : Testiranje  izgleda i funkcionalnosti aplikacije u različitim rezolucijama
 
 Node Package Manager(npm): za instalaciju svih potrebnih biblioteka i paketa potrebnih za pokretanje aplikacije 
+
 
  
 3.	Opis strukture projekta (mapa/fajlova)
@@ -139,38 +141,38 @@ Tekst: Roboto
 
 Prilikom izrade projekta kreirane su četri osnovne uloge : Guest(Gost); Registrovani korisnik; Admin i zasebni admin profili za svaku radnju npr. Admin.bingo.
 
-1.	Gost
-
-•	Može pregledavati proizvode i kategorije bez potrebe za registracijom
-
-•	Ima ograničen pristup funkcijama aplikacije, bez mogućnosti dodavanja ili uređivanja podataka
-
-•	Cilj ove uloge je omogućiti brz i jednostavan uvid u ponudu proizvoda za sve zainteresovane korisnike
-
-
-2.	Registrovani korisnik
-
-•	Ima pristup svim funkcionalnostima za pregled proizvoda
-
-•	Prijava i registracija omogućuju personalizovaniji pristup i bolje korisničko iskustvo
-
-•	Može kreirati liste, porediti cijene i dodavati proizvode u korpu
-
-
-3.	Administrator
-
-•	Ima punu kontrolu nad sadržajem aplikacije
-
-•	Može dodavati, uređivati ili brisati proizvode i kategorije u bazi podataka
-
-•	Upravljanje korisničkim nalozima i praćenje aktivnosti
-
-•	Odgovoran za održavanje tačnosti podataka i tehničku ispravnost aplikacije
-
-
-4.	Administrator firme
-
-•	Može dodavati proizvode, korigovati cijene i opis samo za prodavnicu/market čiji je admin
+  1.	Gost
+  
+  •	Može pregledavati proizvode i kategorije bez potrebe za registracijom
+  
+  •	Ima ograničen pristup funkcijama aplikacije, bez mogućnosti dodavanja ili uređivanja podataka
+  
+  •	Cilj ove uloge je omogućiti brz i jednostavan uvid u ponudu proizvoda za sve zainteresovane korisnike
+  
+  
+  2.	Registrovani korisnik
+  
+  •	Ima pristup svim funkcionalnostima za pregled proizvoda
+  
+  •	Prijava i registracija omogućuju personalizovaniji pristup i bolje korisničko iskustvo
+  
+  •	Može kreirati liste, porediti cijene i dodavati proizvode u korpu
+  
+  
+  3.	Administrator
+  
+  •	Ima punu kontrolu nad sadržajem aplikacije
+  
+  •	Može dodavati, uređivati ili brisati proizvode i kategorije u bazi podataka
+  
+  •	Upravljanje korisničkim nalozima i praćenje aktivnosti
+  
+  •	Odgovoran za održavanje tačnosti podataka i tehničku ispravnost aplikacije
+  
+  
+  4.	Administrator firme
+  
+  •	Može dodavati proizvode, korigovati cijene i opis samo za prodavnicu/market čiji je admin
 
 
  
