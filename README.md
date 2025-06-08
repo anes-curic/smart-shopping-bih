@@ -21,19 +21,28 @@ Korištene tehnologije za izradu :
 
 a)	Frontend: Za izradu korisničkog sučelja korišten je React.js. React.js predstavlja popularnu JavaScript biblioteku koja omogućava dinamičko 
 prikazivanje podataka i organizaciju.
+
 b)	Backend: Za simuliranje serverskog dijela korišten je JSON server, alat koji omogućava kreiranje REST API-ja na osnovu lokalnog .json fajla.
+
 c)	Baza podataka: Kao privremena baza je korišten db.json fajl, koji sadrži struktuirane podatke o kategorijama i proizvodima.
 Podaci se čuvaju u json formatu, što omogućava jednostavnu manipulaciju i čitljivost
+
 d)	Navigacija: Za navigiranje po stranici koristi se React Router
+
 e)	Dodatno: HTML5 + CSS, Font Awesome(ikonice), 
 
 Razvojna okruženja i alati: 
+
 * HTML5 + CSS3
+
 * Font Awesome (ikonice)
+
 * Mock backend (db.json za testiranje lokalno)
 
 Visual Studio Code: Glavni editor korišten za pisanje koda
+
 Google Chrome (Developer Tools) : Testiranje  izgleda i funkcionalnosti aplikacije u različitim rezolucijama
+
 Node Package Manager(npm): za instalaciju svih potrebnih biblioteka i paketa potrebnih za pokretanje aplikacije 
 
  
