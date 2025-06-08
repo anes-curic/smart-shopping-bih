@@ -39,22 +39,22 @@ Node Package Manager(npm): za instalaciju svih potrebnih biblioteka i paketa pot
 Projekat Smart Shopping BiH razvijan je korištenjem React biblioteke, a organizovan je na način koji omogućava lakšu održivost, preglednost i proširivost. U nastavku se nalazi kratak pregled strukture direktorijuma i najvažnijih fajlova:
 smart-shopping-bih/
 |
-|┃-- public/
-|┃   |┃-- assets/               # slike i logotipi
-|┃   |┃-- index.html           # glavni HTML fajl
-|┃   |┃-- favicon.ico, manifest.json, robots.txt
+public/
+assets/               # slike i logotipi
+index.html           # glavni HTML fajl
+favicon.ico, manifest.json, robots.txt
 |
-|┃-- src/
-|┃   |┃-- assets/             # dodatni resursi
-|┃   |┃-- components/         # Navbar, Footer, ConfirmModal, ProtectedRoute
-|┃   |┃-- context/            # AuthContext, CartContext
-|┃   |┃-- data/db.json        # testna baza
-|┃   |┃-- pages/              # sve stranice: Home, Cart, AdminPanel, itd.
-|┃   |┃-- App.js               # glavna komponenta
-|┃   |┃-- styles.css           # globalni stilovi
-|┃   |┃-- index.js, index.css
+src/
+assets/             # dodatni resursi
+components/         # Navbar, Footer, ConfirmModal, ProtectedRoute
+context/            # AuthContext, CartContext
+data/db.json        # testna baza
+pages/              # sve stranice: Home, Cart, AdminPanel, itd.
+App.js               # glavna komponenta
+styles.css           # globalni stilovi
+index.js, index.css
 |
-|┃-- package.json, README.md
+package.json, README.md
 
 
 
@@ -109,24 +109,31 @@ Prilikom izrade projekta kreirane su četri osnovne uloge : Guest(Gost); Registr
  
 6. Kratki opis doprinosa svakog člana tima
 
-Anes Ćurić(Frontend ):
- Izradi korisničkog sučelja koristeći React, implementirao dizajn stranica i osigurao responzivnost za različite uređaje.
+Anes Ćurić (Frontend):
+ Izrada korisničkog sučelja koristeći React, implementirao postojeći dizajn stranica i osigurao responzivnost za različite uređaje. Kreiranje funkcionalnosti stranice. Vršio početno i osnovno testiranje,popravka bugova.
 
-Hasan Mešinović(backend):
-Kreirao i održavala JSON Server bazu podataka, radila na povezivanju podataka s frontend aplikacijom i osigurala pravilno funkcionisanje API poziva.
+Hasan Mešinović (backend):
+Kreirao i održavao JSON Server bazu podataka, radio na povezivanju podataka s frontend aplikacijom i osigurao pravilno funkcionisanje API poziva.
 
 Faris Šolbić (UI/UX dizajn i dokumentacija):
-Kreiranje vizuelnog identiteta stranice, uključujući paletu boja, fontove i raspored elemenata kako bi stranica bila jednostavna i ugodna za korištenje
+Kreiranje vizuelnog identiteta stranice, uključujući paletu boja, fontove i raspored elemenata kako bi stranica bila jednostavna i ugodna za korištenje. Dodavanje proizvoda u bazu podataka, testiranje te kreiranje dokumentacije.
 
 
  
 7.	Upute za pokretanje projekta
+
 Za pokretanje aplikacije Smart Shopping BiH potrebno je slijediti sljedeće korake.
 1.	Preuzimanje projekta
-Preuzmite kompletan projekat sa GitHub repozitorija ili dobijte pristup lokalnoj kopiji                  projekta
-2.	Instalacija potrebnih paketa
+Preuzmite kompletan projekat sa GitHub repozitorija ili dobijte pristup lokalnoj kopiji projekta
+
+3.	Instalacija potrebnih paketa
  Otvorite terminal (Command Prompt, PowerShell ili drugi) u glavnom folderu projekta i pokrenite
-3.	Pokretanje JSON Servera (simulirana baza podataka)
+
+5.	Pokretanje JSON Servera (simulirana baza podataka)
  U terminalu pokrenite JSON Server kako biste omogućili pristup podacima.
-4.	Pokretanje React aplikacije
+    json-server --watch src/data/db.json --port 5000
+
+7.	Pokretanje React aplikacije
   U drugom terminalu (dok je JSON Server pokrenut) pokrenite React aplikaciju
+     npm start
+
