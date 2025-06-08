@@ -1,9 +1,9 @@
 SMART SHOPPING BIH
 
 Članovi tima:
-Anes Ćurić
-Faris Šolbić
-Hasan Mešinović
+Anes Ćurić,
+Faris Šolbić,
+Hasan Mešinović,
 
 1.	Opis teme
 
