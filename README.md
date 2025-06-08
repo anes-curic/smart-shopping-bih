@@ -1,4 +1,5 @@
 SMART SHOPPING BIH
+
 Članovi tima:
 Anes Ćurić
 Faris Šolbić
@@ -123,17 +124,23 @@ Kreiranje vizuelnog identiteta stranice, uključujući paletu boja, fontove i ra
 7.	Upute za pokretanje projekta
 
 Za pokretanje aplikacije Smart Shopping BiH potrebno je slijediti sljedeće korake.
-1.	Preuzimanje projekta
-Preuzmite kompletan projekat sa GitHub repozitorija ili dobijte pristup lokalnoj kopiji projekta
+      1.	Preuzimanje projekta
+         Preuzmite kompletan projekat sa GitHub repozitorija ili dobijte pristup lokalnoj kopiji projekta
+   
+      2.	Instalacija potrebnih paketa
+         Otvorite terminal (Command Prompt, PowerShell ili drugi) u glavnom folderu projekta i pokrenite
+   
+      3.	Pokretanje JSON Servera (simulirana baza podataka)
+         U terminalu pokrenite JSON Server kako biste omogućili pristup podacima.
+         json-server --watch src/data/db.json --port 5000
+   
+       4.	Pokretanje React aplikacije
+          U drugom terminalu (dok je JSON Server pokrenut) pokrenite React aplikaciju
+          npm start
 
-3.	Instalacija potrebnih paketa
- Otvorite terminal (Command Prompt, PowerShell ili drugi) u glavnom folderu projekta i pokrenite
 
-5.	Pokretanje JSON Servera (simulirana baza podataka)
- U terminalu pokrenite JSON Server kako biste omogućili pristup podacima.
-    json-server --watch src/data/db.json --port 5000
+8.	Snimci ekrana radne aplikacije
+   
+U nastavku je prikazan snimcak ekrana koji prikazuju ključne dijelove aplikacije Smart Shopping BiH i njene osnovne funkcionalnosti:
 
-7.	Pokretanje React aplikacije
-  U drugom terminalu (dok je JSON Server pokrenut) pokrenite React aplikaciju
-     npm start
-
+[VIDEO](video.mp4)
