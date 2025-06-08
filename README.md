@@ -124,6 +124,7 @@ Kreiranje vizuelnog identiteta stranice, uključujući paletu boja, fontove i ra
 7.	Upute za pokretanje projekta
 
 Za pokretanje aplikacije Smart Shopping BiH potrebno je slijediti sljedeće korake.
+      
       1.	Preuzimanje projekta
          Preuzmite kompletan projekat sa GitHub repozitorija ili dobijte pristup lokalnoj kopiji projekta
    
